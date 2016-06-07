@@ -1,0 +1,180 @@
+body{
+	margin:0;
+	font-family:'Arial Narrow', sans-serif;
+}
+.error{
+	text-align:center; 
+	color: red;
+	font-weight:700;
+}
+.wrapper{
+	width:1200px;
+	margin:0 auto;
+}
+.nav-default{
+	width:100%;
+	height:255px;
+	background:url('../img/night.jpg');
+	background-size:cover;
+	padding:10px;
+	box-shadow: 0px 5px 5px #888888;
+}
+#home img, .admin{
+	box-shadow: 1px 1px 5px #888888;
+}
+#home img:hover, .admin:hover{
+	box-shadow: 2px 1px 5px #888888;
+}
+.welcome-msg{
+	clear:right;
+	color:#FFFFFF;
+	border:5px solid #FFFFFF;
+	width:350px;
+	margin:0 auto;
+	text-align:center;
+	background:rgba(0, 0, 0, 0.5);
+	font-family:'Vivaldi';
+}
+.welcome-msg h1{
+	font-size:55px;
+	margin:5px;
+}
+.footer{
+	width:100%;
+	height:50px;
+	background:url('../img/footer.jpg');
+	clear:both;
+	box-shadow: 5px -2px 5px #888888;
+}
+
+.access{
+	margin:0 30px;
+	color:#FFFFFF;
+	float:right;
+}
+.admin{
+	clear:right;
+	color:#FFFFFF;
+	width:35px;
+	font-size:16px;
+	float:right;
+	padding:5px;
+	margin:5px 30px;
+}
+.content-wrap{
+	padding:15px;
+	width:80%;
+	float:left;
+}
+#categories{
+	float:right;
+	width:15%;
+	padding-top:45px;
+}
+#categories h2{
+	margin-left:20px;
+}
+.category-item a, .category-item-all a{
+	text-decoration:none;
+}
+.category-item a:hover, .category-item-all a:hover{
+	font-weight:700;
+}
+.category-list{
+	margin-top:40px;
+}
+.category-item, .category-item-all{
+	list-style-type: square;
+	margin-top:10px;
+}
+.login-form{
+	width:50%;
+	border:1px solid lightgray;
+	margin:50px auto;
+	padding:50px;
+}
+.login-form input{
+	width:80%;
+	height:30px;
+	border-radius:5px;
+	float:right;
+}
+.login-form .login-btn, .edit-btn, .delete-btn, .read-more-btn{
+	width:100px;
+	height:35px;
+}
+.read-more-btn{
+	float:right;
+}
+.edit-btn{
+	display:block;
+	margin:10px auto;
+}
+.login-form label{
+	font-size:20px;
+}
+.post-title{
+	font-size:24px;
+}
+.post-image{
+	width:200px;
+	float:left; 
+	margin-right: 15px;
+	display:inline-block;
+}
+.post-content{
+	text-align:justify;
+	display:inline-block;
+	margin-bottom:10px;
+	height:200px;
+	overflow:hidden;
+}
+
+.post-info{
+	margin:5px 0;
+	font-size: 12px;
+}
+.entire-post-content{
+	text-align:justify;
+}
+.new-post-id{
+	margin:15px;
+}
+.new-post, .edit-post, .delete-post{
+	border:1px solid gray;
+	width:100%;
+	padding:10px;
+	display:none;
+	margin-bottom:20px;
+}
+.delete-post form{
+	text-align:center;
+	margin:0 auto;
+}
+.new-post-btn, .edit-post-btn, .delete-post-btn, .logout-btn{
+	width:150px;
+	height:50px;
+	font-size:16px;
+}
+.logout-btn{
+	float:right;
+	margin-top:20px;
+}
+.display {
+	display:block;
+}
+.new-post form, .edit-post form, .delete-post form{
+	width:80%;
+	margin:0 auto;
+}
+.new-post-title, textarea{
+	width:100%;
+	margin:15px;
+	resize:none;
+}
+.upload-img{
+	margin:15px;
+}
+.delete-post-id{
+	margin:15px;
+}
